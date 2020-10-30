@@ -1,0 +1,12 @@
+C:\Users\Luis\source\repos\Gestor_Historias_clinicas\Gestor_Historias_clinicas\bin\Debug\Gestor_Historias_clinicas.exe.config
+C:\Users\Luis\source\repos\Gestor_Historias_clinicas\Gestor_Historias_clinicas\bin\Debug\Gestor_Historias_clinicas.exe
+C:\Users\Luis\source\repos\Gestor_Historias_clinicas\Gestor_Historias_clinicas\bin\Debug\Gestor_Historias_clinicas.pdb
+C:\Users\Luis\source\repos\Gestor_Historias_clinicas\Gestor_Historias_clinicas\obj\Debug\Gestor_Historias_clinicas.csprojAssemblyReference.cache
+C:\Users\Luis\source\repos\Gestor_Historias_clinicas\Gestor_Historias_clinicas\obj\Debug\Gestor_Historias_clinicas.Form1.resources
+C:\Users\Luis\source\repos\Gestor_Historias_clinicas\Gestor_Historias_clinicas\obj\Debug\Gestor_Historias_clinicas.Properties.Resources.resources
+C:\Users\Luis\source\repos\Gestor_Historias_clinicas\Gestor_Historias_clinicas\obj\Debug\Gestor_Historias_clinicas.csproj.GenerateResource.cache
+C:\Users\Luis\source\repos\Gestor_Historias_clinicas\Gestor_Historias_clinicas\obj\Debug\Gestor_Historias_clinicas.csproj.CoreCompileInputs.cache
+C:\Users\Luis\source\repos\Gestor_Historias_clinicas\Gestor_Historias_clinicas\obj\Debug\Gestor_Historias_clinicas.exe
+C:\Users\Luis\source\repos\Gestor_Historias_clinicas\Gestor_Historias_clinicas\obj\Debug\Gestor_Historias_clinicas.pdb
+C:\Users\Luis\source\repos\Gestor_Historias_clinicas\Gestor_Historias_clinicas\obj\Debug\Gestor_Historias_clinicas.FormNuevaHistoria.resources
+C:\Users\Luis\source\repos\Gestor_Historias_clinicas\Gestor_Historias_clinicas\obj\Debug\Gestor_Historias_clinicas.FormHistoria.resources
