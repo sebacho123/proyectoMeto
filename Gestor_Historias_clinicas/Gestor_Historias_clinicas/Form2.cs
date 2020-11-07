@@ -21,5 +21,11 @@ namespace Gestor_Historias_clinicas
         {
 
         }
+
+        private void FormNuevaHistoria_Load(object sender, EventArgs e)
+        {
+
+        }
+        ///HOLA SOY JERSON
     }
 }
