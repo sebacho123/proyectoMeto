@@ -16,5 +16,10 @@ namespace Gestor_Historias_clinicas
         {
             InitializeComponent();
         }
+
+        private void FormHistoria_Load(object sender, EventArgs e)
+        {
+            //Hola soy sebas
+        }
     }
 }
