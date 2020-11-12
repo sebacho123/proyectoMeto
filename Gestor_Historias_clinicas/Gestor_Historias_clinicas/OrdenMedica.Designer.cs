@@ -94,9 +94,9 @@ namespace Gestor_Historias_clinicas
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(13, 52);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 13);
+            this.label4.Size = new System.Drawing.Size(60, 13);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Medico : ";
+            this.label4.Text = "Doctor(a) : ";
             // 
             // dateTimePicker1
             // 
