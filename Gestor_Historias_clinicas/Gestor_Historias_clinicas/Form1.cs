@@ -19,8 +19,10 @@ namespace Gestor_Historias_clinicas
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Close();
+            //Close();
             //hola luis
+            FormHistoria formHistoria = new FormHistoria();
+            formHistoria.ShowDialog();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

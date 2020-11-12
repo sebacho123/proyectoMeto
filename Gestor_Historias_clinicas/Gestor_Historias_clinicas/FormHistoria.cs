@@ -21,5 +21,17 @@ namespace Gestor_Historias_clinicas
         {
             //Hola soy sebas
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Consulta formConsulta = new Consulta();
+            formConsulta.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            OrdenMedica ordenMedica  = new OrdenMedica();
+            ordenMedica.ShowDialog();
+        }
     }
 }

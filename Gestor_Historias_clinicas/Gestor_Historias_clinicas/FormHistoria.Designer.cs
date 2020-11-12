@@ -698,6 +698,7 @@ namespace Gestor_Historias_clinicas
             this.button2.TabIndex = 0;
             this.button2.Text = "Agregar Consulta";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // tabPage3
             // 
@@ -718,6 +719,7 @@ namespace Gestor_Historias_clinicas
             this.button3.TabIndex = 0;
             this.button3.Text = "Agregar Orden";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // FormHistoria
             // 
