@@ -1,7 +1,7 @@
 ﻿
 namespace Gestor_Historias_clinicas
 {
-    partial class FormHistoria
+    partial class FormVerHistoria
     {
         /// <summary>
         /// Required designer variable.

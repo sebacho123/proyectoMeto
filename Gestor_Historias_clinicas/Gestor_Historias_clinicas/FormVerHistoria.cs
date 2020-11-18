@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Gestor_Historias_clinicas
 {
-    public partial class FormHistoria : Form
+    public partial class FormVerHistoria : Form
     {
-        public FormHistoria()
+        public FormVerHistoria()
         {
             InitializeComponent();
         }

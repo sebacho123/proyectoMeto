@@ -59,17 +59,17 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="FormNuevaHistoria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="FormNuevaHistoria.Designer.cs">
+      <DependentUpon>FormNuevaHistoria.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormHistoria.cs">
+    <Compile Include="FormVerHistoria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormHistoria.Designer.cs">
-      <DependentUpon>FormHistoria.cs</DependentUpon>
+    <Compile Include="FormVerHistoria.Designer.cs">
+      <DependentUpon>FormVerHistoria.cs</DependentUpon>
     </Compile>
     <Compile Include="OrdenMedica.cs">
       <SubType>Form</SubType>
@@ -85,11 +85,11 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="FormNuevaHistoria.resx">
+      <DependentUpon>FormNuevaHistoria.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormHistoria.resx">
-      <DependentUpon>FormHistoria.cs</DependentUpon>
+    <EmbeddedResource Include="FormVerHistoria.resx">
+      <DependentUpon>FormVerHistoria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OrdenMedica.resx">
       <DependentUpon>OrdenMedica.cs</DependentUpon>
