@@ -15,6 +15,7 @@ namespace Gestor_Historias_clinicas
         public Form1()
         {
             InitializeComponent();
+            //Conexion conex = new Conexion();
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -12,9 +12,12 @@ namespace Gestor_Historias_clinicas
 {
     public partial class FormNuevaHistoria : Form
     {
+        Conexion cn = new Conexion();
+
         public FormNuevaHistoria()
         {
             InitializeComponent();
+            
         }
 
         private void groupBox4_Enter(object sender, EventArgs e)
@@ -26,6 +29,12 @@ namespace Gestor_Historias_clinicas
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            cn.insertar(Convert.ToInt32(textBoxCI.Text), textBoxNombre.Text, textBoxApellidos.Text);
+        }
+
         ///HOLA SOY JERSON
     }
 }
