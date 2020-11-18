@@ -22,7 +22,7 @@ namespace Gestor_Historias_clinicas
             {
                 connection = new SqlConnection(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=HistoriaClinica;Integrated Security=True");
                 connection.Open();
-                MessageBox.Show("conectado");
+                //MessageBox.Show("conectado");
             }
             catch (Exception ex)
             {
@@ -30,22 +30,18 @@ namespace Gestor_Historias_clinicas
             }
         }
 
-        public void insertar(int Ci, string nombre, string Apellidos)
+        public void insertar(String datos)
         {
-            //string salida = "Si se inserto";
-
             try
             {
-                Command = new SqlCommand("Insert into Paciente(CI, Nombres, Apellidos) values(" + Ci + ", '" + nombre + "', '" + Apellidos + "')",connection);
+                Command = new SqlCommand(datos, connection);
                 Command.ExecuteNonQuery();
                 MessageBox.Show("Se inserto los datos");
             }
             catch (Exception ex)
             {
-                //salida = "no se conecto: " + ex.ToString();
                 MessageBox.Show("Error en Conexion: " + ex.ToString());
             }
-            //return salida;
         }
     }
 }

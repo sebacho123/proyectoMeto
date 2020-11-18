@@ -30,15 +30,17 @@ namespace Gestor_Historias_clinicas
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBoxSexo = new System.Windows.Forms.TextBox();
+            this.textBoxFechaNacimiento = new System.Windows.Forms.TextBox();
+            this.textBoxProvincia = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBoxDepartamento = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBoxTelefono = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBoxDireccion = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textBoxCI = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -47,11 +49,13 @@ namespace Gestor_Historias_clinicas
             this.textBoxNombre = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBoxContactoTelf = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBoxContactoNombre = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.label28 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.textBox10 = new System.Windows.Forms.TextBox();
@@ -83,10 +87,6 @@ namespace Gestor_Historias_clinicas
             this.label18 = new System.Windows.Forms.Label();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -96,17 +96,17 @@ namespace Gestor_Historias_clinicas
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox26);
-            this.groupBox1.Controls.Add(this.textBox25);
-            this.groupBox1.Controls.Add(this.textBox14);
+            this.groupBox1.Controls.Add(this.textBoxSexo);
+            this.groupBox1.Controls.Add(this.textBoxFechaNacimiento);
+            this.groupBox1.Controls.Add(this.textBoxProvincia);
             this.groupBox1.Controls.Add(this.label17);
-            this.groupBox1.Controls.Add(this.textBox13);
+            this.groupBox1.Controls.Add(this.textBoxDepartamento);
             this.groupBox1.Controls.Add(this.label16);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.textBoxTelefono);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.textBoxDireccion);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.textBoxCI);
             this.groupBox1.Controls.Add(this.label3);
@@ -121,12 +121,26 @@ namespace Gestor_Historias_clinicas
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos Personales";
             // 
-            // textBox14
+            // textBoxSexo
             // 
-            this.textBox14.Location = new System.Drawing.Point(70, 182);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(155, 20);
-            this.textBox14.TabIndex = 17;
+            this.textBoxSexo.Location = new System.Drawing.Point(287, 36);
+            this.textBoxSexo.Name = "textBoxSexo";
+            this.textBoxSexo.Size = new System.Drawing.Size(62, 20);
+            this.textBoxSexo.TabIndex = 19;
+            // 
+            // textBoxFechaNacimiento
+            // 
+            this.textBoxFechaNacimiento.Location = new System.Drawing.Point(129, 293);
+            this.textBoxFechaNacimiento.Name = "textBoxFechaNacimiento";
+            this.textBoxFechaNacimiento.Size = new System.Drawing.Size(155, 20);
+            this.textBoxFechaNacimiento.TabIndex = 18;
+            // 
+            // textBoxProvincia
+            // 
+            this.textBoxProvincia.Location = new System.Drawing.Point(70, 182);
+            this.textBoxProvincia.Name = "textBoxProvincia";
+            this.textBoxProvincia.Size = new System.Drawing.Size(155, 20);
+            this.textBoxProvincia.TabIndex = 17;
             // 
             // label17
             // 
@@ -137,12 +151,12 @@ namespace Gestor_Historias_clinicas
             this.label17.TabIndex = 16;
             this.label17.Text = "Provincia : ";
             // 
-            // textBox13
+            // textBoxDepartamento
             // 
-            this.textBox13.Location = new System.Drawing.Point(95, 145);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(155, 20);
-            this.textBox13.TabIndex = 15;
+            this.textBoxDepartamento.Location = new System.Drawing.Point(95, 145);
+            this.textBoxDepartamento.Name = "textBoxDepartamento";
+            this.textBoxDepartamento.Size = new System.Drawing.Size(155, 20);
+            this.textBoxDepartamento.TabIndex = 15;
             // 
             // label16
             // 
@@ -171,12 +185,12 @@ namespace Gestor_Historias_clinicas
             this.label6.TabIndex = 10;
             this.label6.Text = "Fecha de Nacimiento : ";
             // 
-            // textBox5
+            // textBoxTelefono
             // 
-            this.textBox5.Location = new System.Drawing.Point(70, 255);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(155, 20);
-            this.textBox5.TabIndex = 9;
+            this.textBoxTelefono.Location = new System.Drawing.Point(70, 255);
+            this.textBoxTelefono.Name = "textBoxTelefono";
+            this.textBoxTelefono.Size = new System.Drawing.Size(155, 20);
+            this.textBoxTelefono.TabIndex = 9;
             // 
             // label5
             // 
@@ -187,12 +201,12 @@ namespace Gestor_Historias_clinicas
             this.label5.TabIndex = 8;
             this.label5.Text = "Telf. o Cel. : ";
             // 
-            // textBox4
+            // textBoxDireccion
             // 
-            this.textBox4.Location = new System.Drawing.Point(70, 215);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(155, 20);
-            this.textBox4.TabIndex = 7;
+            this.textBoxDireccion.Location = new System.Drawing.Point(70, 215);
+            this.textBoxDireccion.Name = "textBoxDireccion";
+            this.textBoxDireccion.Size = new System.Drawing.Size(155, 20);
+            this.textBoxDireccion.TabIndex = 7;
             // 
             // label4
             // 
@@ -253,9 +267,9 @@ namespace Gestor_Historias_clinicas
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox7);
+            this.groupBox2.Controls.Add(this.textBoxContactoTelf);
             this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.textBox6);
+            this.groupBox2.Controls.Add(this.textBoxContactoNombre);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Location = new System.Drawing.Point(13, 349);
             this.groupBox2.Name = "groupBox2";
@@ -264,12 +278,12 @@ namespace Gestor_Historias_clinicas
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Contacto de Emergencia";
             // 
-            // textBox7
+            // textBoxContactoTelf
             // 
-            this.textBox7.Location = new System.Drawing.Point(79, 51);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(155, 20);
-            this.textBox7.TabIndex = 3;
+            this.textBoxContactoTelf.Location = new System.Drawing.Point(79, 51);
+            this.textBoxContactoTelf.Name = "textBoxContactoTelf";
+            this.textBoxContactoTelf.Size = new System.Drawing.Size(155, 20);
+            this.textBoxContactoTelf.TabIndex = 3;
             // 
             // label9
             // 
@@ -280,12 +294,12 @@ namespace Gestor_Historias_clinicas
             this.label9.TabIndex = 2;
             this.label9.Text = "Telf. o Cel. : ";
             // 
-            // textBox6
+            // textBoxContactoNombre
             // 
-            this.textBox6.Location = new System.Drawing.Point(112, 22);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(210, 20);
-            this.textBox6.TabIndex = 15;
+            this.textBoxContactoNombre.Location = new System.Drawing.Point(112, 22);
+            this.textBoxContactoNombre.Name = "textBoxContactoNombre";
+            this.textBoxContactoNombre.Size = new System.Drawing.Size(210, 20);
+            this.textBoxContactoNombre.TabIndex = 15;
             // 
             // label8
             // 
@@ -314,6 +328,22 @@ namespace Gestor_Historias_clinicas
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Datos Estadisticos y Signos Vitales";
+            // 
+            // textBox19
+            // 
+            this.textBox19.Location = new System.Drawing.Point(310, 124);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(84, 20);
+            this.textBox19.TabIndex = 16;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(262, 127);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(40, 13);
+            this.label28.TabIndex = 15;
+            this.label28.Text = "Peso : ";
             // 
             // textBox12
             // 
@@ -585,36 +615,6 @@ namespace Gestor_Historias_clinicas
             this.label14.TabIndex = 13;
             this.label14.Text = "Grp. Sanguineo : ";
             // 
-            // textBox19
-            // 
-            this.textBox19.Location = new System.Drawing.Point(310, 124);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(84, 20);
-            this.textBox19.TabIndex = 16;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(262, 127);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(40, 13);
-            this.label28.TabIndex = 15;
-            this.label28.Text = "Peso : ";
-            // 
-            // textBox25
-            // 
-            this.textBox25.Location = new System.Drawing.Point(129, 293);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(155, 20);
-            this.textBox25.TabIndex = 18;
-            // 
-            // textBox26
-            // 
-            this.textBox26.Location = new System.Drawing.Point(287, 36);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(62, 20);
-            this.textBox26.TabIndex = 19;
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(701, 445);
@@ -657,9 +657,9 @@ namespace Gestor_Historias_clinicas
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBoxTelefono;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBoxDireccion;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBoxCI;
         private System.Windows.Forms.Label label3;
@@ -667,16 +667,16 @@ namespace Gestor_Historias_clinicas
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBoxNombre;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox textBoxProvincia;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox textBoxDepartamento;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBoxContactoTelf;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBoxContactoNombre;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.TextBox textBox12;
@@ -711,8 +711,8 @@ namespace Gestor_Historias_clinicas
         private System.Windows.Forms.DateTimePicker dateTimePicker3;
         private System.Windows.Forms.TextBox textBox19;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.TextBox textBox25;
+        private System.Windows.Forms.TextBox textBoxSexo;
+        private System.Windows.Forms.TextBox textBoxFechaNacimiento;
         private System.Windows.Forms.Button button1;
     }
 }
