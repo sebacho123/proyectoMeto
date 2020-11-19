@@ -54,40 +54,40 @@ namespace Gestor_Historias_clinicas
             this.textBoxContactoNombre = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.tBxPeso = new System.Windows.Forms.TextBox();
             this.label28 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.tBxTemperatura = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.tBxPresionArterial = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.tBxEstatura = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.tBxEdad = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.tBxMenopausia = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
-            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.tBxCesareas = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
-            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.tBxAbortos = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
-            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.tBxPartos = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.tBxGestas = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
-            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.tBxUltimaMens = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.tBxPlanFamiliar = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.tBxIncSexual = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.tBxCMenstrual = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.tBxGrpSanguineo = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.tBxFechaParto = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -312,15 +312,15 @@ namespace Gestor_Historias_clinicas
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.textBox19);
+            this.groupBox3.Controls.Add(this.tBxPeso);
             this.groupBox3.Controls.Add(this.label28);
-            this.groupBox3.Controls.Add(this.textBox12);
+            this.groupBox3.Controls.Add(this.tBxTemperatura);
             this.groupBox3.Controls.Add(this.label15);
-            this.groupBox3.Controls.Add(this.textBox10);
+            this.groupBox3.Controls.Add(this.tBxPresionArterial);
             this.groupBox3.Controls.Add(this.label12);
-            this.groupBox3.Controls.Add(this.textBox9);
+            this.groupBox3.Controls.Add(this.tBxEstatura);
             this.groupBox3.Controls.Add(this.label11);
-            this.groupBox3.Controls.Add(this.textBox8);
+            this.groupBox3.Controls.Add(this.tBxEdad);
             this.groupBox3.Controls.Add(this.label10);
             this.groupBox3.Location = new System.Drawing.Point(388, 13);
             this.groupBox3.Name = "groupBox3";
@@ -329,12 +329,12 @@ namespace Gestor_Historias_clinicas
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Datos Estadisticos y Signos Vitales";
             // 
-            // textBox19
+            // tBxPeso
             // 
-            this.textBox19.Location = new System.Drawing.Point(310, 124);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(84, 20);
-            this.textBox19.TabIndex = 16;
+            this.tBxPeso.Location = new System.Drawing.Point(310, 124);
+            this.tBxPeso.Name = "tBxPeso";
+            this.tBxPeso.Size = new System.Drawing.Size(84, 20);
+            this.tBxPeso.TabIndex = 16;
             // 
             // label28
             // 
@@ -345,12 +345,12 @@ namespace Gestor_Historias_clinicas
             this.label28.TabIndex = 15;
             this.label28.Text = "Peso : ";
             // 
-            // textBox12
+            // tBxTemperatura
             // 
-            this.textBox12.Location = new System.Drawing.Point(310, 75);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(84, 20);
-            this.textBox12.TabIndex = 14;
+            this.tBxTemperatura.Location = new System.Drawing.Point(310, 75);
+            this.tBxTemperatura.Name = "tBxTemperatura";
+            this.tBxTemperatura.Size = new System.Drawing.Size(84, 20);
+            this.tBxTemperatura.TabIndex = 14;
             // 
             // label15
             // 
@@ -361,12 +361,12 @@ namespace Gestor_Historias_clinicas
             this.label15.TabIndex = 13;
             this.label15.Text = "Temperatura : ";
             // 
-            // textBox10
+            // tBxPresionArterial
             // 
-            this.textBox10.Location = new System.Drawing.Point(102, 124);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(155, 20);
-            this.textBox10.TabIndex = 9;
+            this.tBxPresionArterial.Location = new System.Drawing.Point(102, 124);
+            this.tBxPresionArterial.Name = "tBxPresionArterial";
+            this.tBxPresionArterial.Size = new System.Drawing.Size(155, 20);
+            this.tBxPresionArterial.TabIndex = 9;
             // 
             // label12
             // 
@@ -377,12 +377,12 @@ namespace Gestor_Historias_clinicas
             this.label12.TabIndex = 8;
             this.label12.Text = "Presion Arterial : ";
             // 
-            // textBox9
+            // tBxEstatura
             // 
-            this.textBox9.Location = new System.Drawing.Point(74, 75);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(155, 20);
-            this.textBox9.TabIndex = 7;
+            this.tBxEstatura.Location = new System.Drawing.Point(74, 75);
+            this.tBxEstatura.Name = "tBxEstatura";
+            this.tBxEstatura.Size = new System.Drawing.Size(155, 20);
+            this.tBxEstatura.TabIndex = 7;
             // 
             // label11
             // 
@@ -393,12 +393,12 @@ namespace Gestor_Historias_clinicas
             this.label11.TabIndex = 6;
             this.label11.Text = "Estatura : ";
             // 
-            // textBox8
+            // tBxEdad
             // 
-            this.textBox8.Location = new System.Drawing.Point(74, 33);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(155, 20);
-            this.textBox8.TabIndex = 5;
+            this.tBxEdad.Location = new System.Drawing.Point(74, 33);
+            this.tBxEdad.Name = "tBxEdad";
+            this.tBxEdad.Size = new System.Drawing.Size(155, 20);
+            this.tBxEdad.TabIndex = 5;
             // 
             // label10
             // 
@@ -411,25 +411,25 @@ namespace Gestor_Historias_clinicas
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.dateTimePicker3);
-            this.groupBox4.Controls.Add(this.textBox24);
+            this.groupBox4.Controls.Add(this.tBxFechaParto);
+            this.groupBox4.Controls.Add(this.tBxMenopausia);
             this.groupBox4.Controls.Add(this.label27);
-            this.groupBox4.Controls.Add(this.textBox23);
+            this.groupBox4.Controls.Add(this.tBxCesareas);
             this.groupBox4.Controls.Add(this.label26);
-            this.groupBox4.Controls.Add(this.textBox22);
+            this.groupBox4.Controls.Add(this.tBxAbortos);
             this.groupBox4.Controls.Add(this.label25);
-            this.groupBox4.Controls.Add(this.textBox21);
+            this.groupBox4.Controls.Add(this.tBxPartos);
             this.groupBox4.Controls.Add(this.label24);
-            this.groupBox4.Controls.Add(this.textBox20);
+            this.groupBox4.Controls.Add(this.tBxGestas);
             this.groupBox4.Controls.Add(this.label23);
-            this.groupBox4.Controls.Add(this.textBox18);
+            this.groupBox4.Controls.Add(this.tBxUltimaMens);
             this.groupBox4.Controls.Add(this.label21);
             this.groupBox4.Controls.Add(this.label22);
-            this.groupBox4.Controls.Add(this.textBox17);
+            this.groupBox4.Controls.Add(this.tBxPlanFamiliar);
             this.groupBox4.Controls.Add(this.label20);
-            this.groupBox4.Controls.Add(this.textBox16);
+            this.groupBox4.Controls.Add(this.tBxIncSexual);
             this.groupBox4.Controls.Add(this.label19);
-            this.groupBox4.Controls.Add(this.textBox15);
+            this.groupBox4.Controls.Add(this.tBxCMenstrual);
             this.groupBox4.Controls.Add(this.label18);
             this.groupBox4.Location = new System.Drawing.Point(388, 221);
             this.groupBox4.Name = "groupBox4";
@@ -439,19 +439,12 @@ namespace Gestor_Historias_clinicas
             this.groupBox4.Text = "Antecedentes Ginecoobstetricos";
             this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
-            // dateTimePicker3
+            // tBxMenopausia
             // 
-            this.dateTimePicker3.Location = new System.Drawing.Point(102, 19);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker3.TabIndex = 22;
-            // 
-            // textBox24
-            // 
-            this.textBox24.Location = new System.Drawing.Point(88, 176);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(76, 20);
-            this.textBox24.TabIndex = 21;
+            this.tBxMenopausia.Location = new System.Drawing.Point(88, 176);
+            this.tBxMenopausia.Name = "tBxMenopausia";
+            this.tBxMenopausia.Size = new System.Drawing.Size(76, 20);
+            this.tBxMenopausia.TabIndex = 21;
             // 
             // label27
             // 
@@ -462,12 +455,12 @@ namespace Gestor_Historias_clinicas
             this.label27.TabIndex = 20;
             this.label27.Text = "Menopausia : ";
             // 
-            // textBox23
+            // tBxCesareas
             // 
-            this.textBox23.Location = new System.Drawing.Point(340, 175);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(48, 20);
-            this.textBox23.TabIndex = 19;
+            this.tBxCesareas.Location = new System.Drawing.Point(340, 175);
+            this.tBxCesareas.Name = "tBxCesareas";
+            this.tBxCesareas.Size = new System.Drawing.Size(48, 20);
+            this.tBxCesareas.TabIndex = 19;
             // 
             // label26
             // 
@@ -478,12 +471,12 @@ namespace Gestor_Historias_clinicas
             this.label26.TabIndex = 18;
             this.label26.Text = "Cesareas : ";
             // 
-            // textBox22
+            // tBxAbortos
             // 
-            this.textBox22.Location = new System.Drawing.Point(340, 144);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(48, 20);
-            this.textBox22.TabIndex = 17;
+            this.tBxAbortos.Location = new System.Drawing.Point(340, 144);
+            this.tBxAbortos.Name = "tBxAbortos";
+            this.tBxAbortos.Size = new System.Drawing.Size(48, 20);
+            this.tBxAbortos.TabIndex = 17;
             // 
             // label25
             // 
@@ -494,12 +487,12 @@ namespace Gestor_Historias_clinicas
             this.label25.TabIndex = 16;
             this.label25.Text = "Abortos : ";
             // 
-            // textBox21
+            // tBxPartos
             // 
-            this.textBox21.Location = new System.Drawing.Point(340, 110);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(48, 20);
-            this.textBox21.TabIndex = 15;
+            this.tBxPartos.Location = new System.Drawing.Point(340, 110);
+            this.tBxPartos.Name = "tBxPartos";
+            this.tBxPartos.Size = new System.Drawing.Size(48, 20);
+            this.tBxPartos.TabIndex = 15;
             // 
             // label24
             // 
@@ -510,12 +503,12 @@ namespace Gestor_Historias_clinicas
             this.label24.TabIndex = 14;
             this.label24.Text = "Partos : ";
             // 
-            // textBox20
+            // tBxGestas
             // 
-            this.textBox20.Location = new System.Drawing.Point(340, 80);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(48, 20);
-            this.textBox20.TabIndex = 13;
+            this.tBxGestas.Location = new System.Drawing.Point(340, 80);
+            this.tBxGestas.Name = "tBxGestas";
+            this.tBxGestas.Size = new System.Drawing.Size(48, 20);
+            this.tBxGestas.TabIndex = 13;
             // 
             // label23
             // 
@@ -526,12 +519,12 @@ namespace Gestor_Historias_clinicas
             this.label23.TabIndex = 12;
             this.label23.Text = "Gestas : ";
             // 
-            // textBox18
+            // tBxUltimaMens
             // 
-            this.textBox18.Location = new System.Drawing.Point(128, 80);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(131, 20);
-            this.textBox18.TabIndex = 9;
+            this.tBxUltimaMens.Location = new System.Drawing.Point(128, 80);
+            this.tBxUltimaMens.Name = "tBxUltimaMens";
+            this.tBxUltimaMens.Size = new System.Drawing.Size(131, 20);
+            this.tBxUltimaMens.TabIndex = 9;
             // 
             // label21
             // 
@@ -551,12 +544,12 @@ namespace Gestor_Historias_clinicas
             this.label22.TabIndex = 10;
             this.label22.Text = "Fecha de parto : ";
             // 
-            // textBox17
+            // tBxPlanFamiliar
             // 
-            this.textBox17.Location = new System.Drawing.Point(130, 147);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(129, 20);
-            this.textBox17.TabIndex = 7;
+            this.tBxPlanFamiliar.Location = new System.Drawing.Point(130, 147);
+            this.tBxPlanFamiliar.Name = "tBxPlanFamiliar";
+            this.tBxPlanFamiliar.Size = new System.Drawing.Size(129, 20);
+            this.tBxPlanFamiliar.TabIndex = 7;
             // 
             // label20
             // 
@@ -567,12 +560,12 @@ namespace Gestor_Historias_clinicas
             this.label20.TabIndex = 6;
             this.label20.Text = "Planificacion Familiar : ";
             // 
-            // textBox16
+            // tBxIncSexual
             // 
-            this.textBox16.Location = new System.Drawing.Point(133, 113);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(126, 20);
-            this.textBox16.TabIndex = 5;
+            this.tBxIncSexual.Location = new System.Drawing.Point(133, 113);
+            this.tBxIncSexual.Name = "tBxIncSexual";
+            this.tBxIncSexual.Size = new System.Drawing.Size(126, 20);
+            this.tBxIncSexual.TabIndex = 5;
             // 
             // label19
             // 
@@ -583,12 +576,12 @@ namespace Gestor_Historias_clinicas
             this.label19.TabIndex = 4;
             this.label19.Text = "Inc. Vida Sexual Activa : ";
             // 
-            // textBox15
+            // tBxCMenstrual
             // 
-            this.textBox15.Location = new System.Drawing.Point(102, 47);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(200, 20);
-            this.textBox15.TabIndex = 3;
+            this.tBxCMenstrual.Location = new System.Drawing.Point(102, 47);
+            this.tBxCMenstrual.Name = "tBxCMenstrual";
+            this.tBxCMenstrual.Size = new System.Drawing.Size(200, 20);
+            this.tBxCMenstrual.TabIndex = 3;
             // 
             // label18
             // 
@@ -599,12 +592,12 @@ namespace Gestor_Historias_clinicas
             this.label18.TabIndex = 2;
             this.label18.Text = "Ciclo Menstrual : ";
             // 
-            // textBox11
+            // tBxGrpSanguineo
             // 
-            this.textBox11.Location = new System.Drawing.Point(711, 45);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(71, 20);
-            this.textBox11.TabIndex = 14;
+            this.tBxGrpSanguineo.Location = new System.Drawing.Point(711, 45);
+            this.tBxGrpSanguineo.Name = "tBxGrpSanguineo";
+            this.tBxGrpSanguineo.Size = new System.Drawing.Size(71, 20);
+            this.tBxGrpSanguineo.TabIndex = 14;
             // 
             // label14
             // 
@@ -625,13 +618,20 @@ namespace Gestor_Historias_clinicas
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // tBxFechaParto
+            // 
+            this.tBxFechaParto.Location = new System.Drawing.Point(102, 17);
+            this.tBxFechaParto.Name = "tBxFechaParto";
+            this.tBxFechaParto.Size = new System.Drawing.Size(200, 20);
+            this.tBxFechaParto.TabIndex = 22;
+            // 
             // FormNuevaHistoria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 480);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.tBxGrpSanguineo);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
@@ -679,40 +679,40 @@ namespace Gestor_Historias_clinicas
         private System.Windows.Forms.TextBox textBoxContactoNombre;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox tBxTemperatura;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox tBxPresionArterial;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox tBxEstatura;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox tBxEdad;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.TextBox tBxMenopausia;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.TextBox tBxCesareas;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox tBxAbortos;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox tBxPartos;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.TextBox tBxGestas;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox tBxUltimaMens;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox tBxPlanFamiliar;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox tBxIncSexual;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox tBxCMenstrual;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox tBxGrpSanguineo;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
-        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.TextBox tBxPeso;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.TextBox textBoxSexo;
         private System.Windows.Forms.TextBox textBoxFechaNacimiento;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox tBxFechaParto;
     }
 }

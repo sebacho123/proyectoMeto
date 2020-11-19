@@ -35,7 +35,6 @@ namespace Gestor_Historias_clinicas
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
             this.textBox24 = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
             this.textBox23 = new System.Windows.Forms.TextBox();
@@ -56,6 +55,8 @@ namespace Gestor_Historias_clinicas
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.label28 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.textBox10 = new System.Windows.Forms.TextBox();
@@ -74,10 +75,7 @@ namespace Gestor_Historias_clinicas
             this.label17 = new System.Windows.Forms.Label();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label7 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -93,8 +91,10 @@ namespace Gestor_Historias_clinicas
             this.button2 = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.button3 = new System.Windows.Forms.Button();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.label28 = new System.Windows.Forms.Label();
+            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -118,6 +118,7 @@ namespace Gestor_Historias_clinicas
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.button4);
             this.tabPage1.Controls.Add(this.button1);
             this.tabPage1.Controls.Add(this.textBox11);
             this.tabPage1.Controls.Add(this.label14);
@@ -160,7 +161,7 @@ namespace Gestor_Historias_clinicas
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.dateTimePicker3);
+            this.groupBox4.Controls.Add(this.textBox27);
             this.groupBox4.Controls.Add(this.textBox24);
             this.groupBox4.Controls.Add(this.label27);
             this.groupBox4.Controls.Add(this.textBox23);
@@ -186,13 +187,6 @@ namespace Gestor_Historias_clinicas
             this.groupBox4.TabIndex = 16;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Antecedentes Ginecoobstetricos";
-            // 
-            // dateTimePicker3
-            // 
-            this.dateTimePicker3.Location = new System.Drawing.Point(102, 19);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker3.TabIndex = 22;
             // 
             // textBox24
             // 
@@ -366,6 +360,22 @@ namespace Gestor_Historias_clinicas
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Datos Estadisticos y Signos Vitales";
             // 
+            // textBox19
+            // 
+            this.textBox19.Location = new System.Drawing.Point(310, 124);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(84, 20);
+            this.textBox19.TabIndex = 16;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(262, 127);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(40, 13);
+            this.label28.TabIndex = 15;
+            this.label28.Text = "Peso : ";
+            // 
             // textBox12
             // 
             this.textBox12.Location = new System.Drawing.Point(310, 75);
@@ -477,14 +487,13 @@ namespace Gestor_Historias_clinicas
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.textBox26);
+            this.groupBox1.Controls.Add(this.textBox25);
             this.groupBox1.Controls.Add(this.textBox14);
             this.groupBox1.Controls.Add(this.label17);
             this.groupBox1.Controls.Add(this.textBox13);
             this.groupBox1.Controls.Add(this.label16);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.textBox5);
             this.groupBox1.Controls.Add(this.label5);
@@ -535,28 +544,6 @@ namespace Gestor_Historias_clinicas
             this.label16.TabIndex = 14;
             this.label16.Text = "Departamento : ";
             // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(296, 62);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(51, 17);
-            this.radioButton2.TabIndex = 13;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Mujer";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(296, 39);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(53, 17);
-            this.radioButton1.TabIndex = 12;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Varon";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -565,14 +552,6 @@ namespace Gestor_Historias_clinicas
             this.label7.Size = new System.Drawing.Size(40, 13);
             this.label7.TabIndex = 11;
             this.label7.Text = "Sexo : ";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(129, 296);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(193, 20);
-            this.dateTimePicker1.TabIndex = 1;
-            this.dateTimePicker1.Visible = false;
             // 
             // label6
             // 
@@ -705,29 +684,43 @@ namespace Gestor_Historias_clinicas
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // textBox19
+            // textBox25
             // 
-            this.textBox19.Location = new System.Drawing.Point(310, 124);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(84, 20);
-            this.textBox19.TabIndex = 16;
+            this.textBox25.Location = new System.Drawing.Point(278, 36);
+            this.textBox25.Name = "textBox25";
+            this.textBox25.Size = new System.Drawing.Size(71, 20);
+            this.textBox25.TabIndex = 20;
             // 
-            // label28
+            // textBox26
             // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(262, 127);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(40, 13);
-            this.label28.TabIndex = 15;
-            this.label28.Text = "Peso : ";
+            this.textBox26.Location = new System.Drawing.Point(126, 293);
+            this.textBox26.Name = "textBox26";
+            this.textBox26.Size = new System.Drawing.Size(155, 20);
+            this.textBox26.TabIndex = 21;
             // 
-            // FormHistoria
+            // textBox27
+            // 
+            this.textBox27.Location = new System.Drawing.Point(102, 17);
+            this.textBox27.Name = "textBox27";
+            this.textBox27.Size = new System.Drawing.Size(200, 20);
+            this.textBox27.TabIndex = 22;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(599, 447);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 20;
+            this.button4.Text = "Guardar";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // FormVerHistoria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(811, 526);
             this.Controls.Add(this.tabControl1);
-            this.Name = "FormHistoria";
+            this.Name = "FormVerHistoria";
             this.Text = "FormHistoria";
             this.Load += new System.EventHandler(this.FormHistoria_Load);
             this.tabControl1.ResumeLayout(false);
@@ -763,10 +756,7 @@ namespace Gestor_Historias_clinicas
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label5;
@@ -781,7 +771,6 @@ namespace Gestor_Historias_clinicas
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
         private System.Windows.Forms.TextBox textBox24;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.TextBox textBox23;
@@ -815,5 +804,9 @@ namespace Gestor_Historias_clinicas
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TextBox textBox19;
         private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.TextBox textBox25;
     }
 }

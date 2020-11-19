@@ -34,8 +34,7 @@ namespace Gestor_Historias_clinicas
 
         public Paciente()
         {
-            cn = new Conexion();
-            
+            cn = new Conexion(); 
         }
 
         public void insertar()
