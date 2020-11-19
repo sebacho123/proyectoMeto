@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Gestor_Historias_clinicas
 {
-    class Consulta
+    class Ginecoobstetricos
     {
     }
 }

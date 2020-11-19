@@ -24,7 +24,7 @@ namespace Gestor_Historias_clinicas
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Consulta formConsulta = new Consulta();
+            FormConsulta formConsulta = new FormConsulta();
             formConsulta.ShowDialog();
         }
 
