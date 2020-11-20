@@ -12,6 +12,7 @@ namespace Gestor_Historias_clinicas
 {
     public partial class FormVerHistoria : Form
     {
+        public int criterioBusqueda { get; set; }
         public FormVerHistoria()
         {
             InitializeComponent();

@@ -14,11 +14,11 @@ namespace Gestor_Historias_clinicas
     {
         Paciente p;
 
+
         public FormNuevaHistoria()
         {
             InitializeComponent();
             p = new Paciente();
-            
             
         }
 
@@ -34,6 +34,14 @@ namespace Gestor_Historias_clinicas
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+            values_datos_personales();
+            
+        }
+
+
+        private void values_datos_personales()
+        {
             p.CI = Convert.ToInt32(textBoxCI.Text);
             p.Nombres = textBoxNombre.Text;
             p.Apellidos = textBoxApellidos.Text;
@@ -48,6 +56,6 @@ namespace Gestor_Historias_clinicas
             p.insertar();
         }
 
-        ///HOLA SOY JERSON
+
     }
 }

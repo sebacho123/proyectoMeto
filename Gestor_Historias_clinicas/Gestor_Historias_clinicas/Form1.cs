@@ -22,8 +22,12 @@ namespace Gestor_Historias_clinicas
         {
             //Close();
             //hola luis
+
             FormVerHistoria formVerHistoria = new FormVerHistoria();
+            formVerHistoria.criterioBusqueda = Convert.ToInt32(tBxInicioCI.Text);
             formVerHistoria.ShowDialog();
+            
+
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
